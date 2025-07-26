@@ -4,15 +4,12 @@ function App() {
 
   return (
     <>
- <header>
-        <div className="container">
             <div className="header-top">
-                <div className="logo">vl.ru</div>
+                <div className="logo">ARS-RF</div>
                 <div className="auth">
                     <a href="#">Войти</a>
                     <a href="#">Регистрация</a>
                 </div>
-            </div>
             
             <div className="search">
                 <input type="text" placeholder="Поиск во Владивостоке"/>
@@ -29,7 +26,6 @@ function App() {
                 </ul>
             </nav>
         </div>
-    </header>
     
     <main className="container">
         <div className="main-news">

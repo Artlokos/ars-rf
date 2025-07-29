@@ -49,16 +49,14 @@
 }
 
 * {
-  /* margin: 0 auto; */
-  /* padding: 0 auto; */
   box-sizing: border-box;
+    /* border: 1px solid green; */
 }
 
 body {
   margin: 0 auto;
-  /* place-items: center; */
-  /* min-width: 320px; */
-  /* min-height: 100vh; */
+  min-width: 320px;
+  min-height: 100vh;
   height: 100vh;
   background-color:var(--bck-color);
 }

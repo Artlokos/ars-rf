@@ -1,0 +1,17 @@
+.logo{
+  grid-area: logo;
+  font-size: 125px;
+  font-weight: bold;
+  color: var(--accent_color);
+}
+
+.slogan{
+  grid-area:slogan;
+  font-size: var(--font-size-base);
+  text-transform: uppercase;
+  color:var(--accent_color);
+
+}
+.auth{
+    grid-area: auth;
+}

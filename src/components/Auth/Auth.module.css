@@ -1,0 +1,19 @@
+.auth{
+  display: flex;
+  flex-direction: column;
+  gap:40px;
+  padding: 30px;
+}
+.auth a {
+  color: var(--accent_color);
+  color:black;
+  background-color: var(-card_back);
+  text-align: center;
+  padding: 5px;
+  border: 1px solid var(--card_shadow);
+}
+
+.auth a:hover{
+  text-decoration: underline;
+
+}

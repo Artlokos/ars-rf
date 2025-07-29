@@ -29,7 +29,7 @@
   --spacing-xlarge: clamp(2rem, 4vw, 3.5rem);
 
   --text_color: rgb(75, 75, 75);
-  --accent_color: #b6903d;
+  --accent_color: rgb(138, 46, 76);
   --h2_color: rgb(75, 75, 75);
   --logo_color: rgba(0, 0, 0, 1);
   --button_back: #dbbe7b;
@@ -37,7 +37,7 @@
   --button_text: rgba(75, 75, 75);
   --bck-color: rgba(245, 245, 245, 0.4);
 
-  --pages_body_color: rgb(255, 255, 255);
+  /* --pages_body_color: rgb(255, 255, 255); */
 
   /* --card_back:rgba(184, 230, 207, 0.9);
   --card_shadow:rgba(55, 135, 85, 0.8);
@@ -106,4 +106,8 @@ li,
 a {
   text-decoration: none;
   list-style: none;
+}
+p{
+  margin: 0;
+  padding: 0;
 }

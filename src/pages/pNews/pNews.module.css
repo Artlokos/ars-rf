@@ -1,4 +1,17 @@
 .container { 
     padding: 1rem; 
-    background-color: #fff; 
-} 
+    background-color: var(--pages_body_color); 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+    font-size: 28px;
+}

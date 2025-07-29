@@ -33,9 +33,19 @@
   --h2_color: rgb(75, 75, 75);
   --logo_color: rgba(0, 0, 0, 1);
   --button_back: #dbbe7b;
-  --button_back_hover: #f3cc78;
+  --button_back_hover: rgba(243, 204, 120,1);
   --button_text: rgba(75, 75, 75);
-  --bck-color: rgba(255, 255, 255, 0.8);
+  --bck-color: rgba(245, 245, 245, 0.4);
+
+  --pages_body_color: rgb(255, 255, 255);
+
+  /* --card_back:rgba(184, 230, 207, 0.9);
+  --card_shadow:rgba(55, 135, 85, 0.8);
+  --card_shadow_hover:rgba(35, 100, 57, 0.8); */
+
+  --card_back:rgba(230, 184, 199, 0.9);
+  --card_shadow:rgba(135, 64, 55, 0.8);
+  --card_shadow_hover:rgba(100, 35, 78, 0.8);
 }
 
 * {
@@ -50,7 +60,7 @@ body {
   /* min-width: 320px; */
   /* min-height: 100vh; */
   height: 100vh;
-  background-color: rgba(245, 245, 245, 0.5);
+  background-color:var(--bck-color);
 }
 
 a {

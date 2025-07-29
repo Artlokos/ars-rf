@@ -3,15 +3,14 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import Header from './components/Header/Header';
 import Navbar from './components/Navbar/Navbar';
 import AppRouter from './components/AppRouter';
-import Search from './components/Search/Search';
-// import PNews from './pages/pNews';
+// import Search from './components/Search/Search';
 
 function App() {
   return (
     <>
       <Router>
         <Header label="ArsTimes" />
-        <Search />
+        {/* <Search /> */}
         <Navbar
           items={[
             { name: 'Новости', path: '/news' },

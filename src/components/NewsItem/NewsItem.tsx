@@ -1,0 +1,21 @@
+import React from 'react';
+import styles from './NewsItem.module.css';
+
+interface NewsItemProps {
+  label: string;
+}
+
+const NewsItem: React.FC<NewsItemProps> = ({ label }) => {
+  return (
+    <div className={styles.news_item}>
+      <h3 className={styles.news_title}>{label}</h3>
+          <img className={styles.news_thumbnail} src="./image.jpg" alt="" />
+          <h4 className={styles.news_item_title}>Заголовок статьи</h4>
+          <p className={styles.news_description}>
+            Краткое описание статьи
+          </p>
+        </div>
+      );
+};
+
+export default NewsItem;

@@ -1,7 +1,7 @@
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, type RouteObject } from 'react-router-dom';
 import {routesConfig} from '../../data'
 
-function renderRoutes(routes: AppRoute[]) {
+function renderRoutes(routes: RouteObject[]) {
   return routes.map((route, index) => (
     <Route
       key={index}

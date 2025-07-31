@@ -1,6 +1,6 @@
 .logo{
   grid-area: logo;
-  font-size: 125px;
+  font-size: var(--font-size-xlarge);
   font-weight: bold;
   color: var(--accent_color);
 }

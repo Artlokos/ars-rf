@@ -1,14 +1,20 @@
 :root {
+  position: relative;
+  display: grid;
+  grid-template-areas: 
+  "market body market";
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   font-weight: 400;
   padding: 0 10%;
   color-scheme: light dark;
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0);
+
   background-image: url('../public/img/jpg/kosmos.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: black;
+
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -39,9 +45,9 @@
 
   /* --pages_body_color: rgb(255, 255, 255); */
 
-  /* --card_back:rgba(184, 230, 207, 0.9);
+  --card_back:rgba(184, 230, 207, 0.9);
   --card_shadow:rgba(55, 135, 85, 0.8);
-  --card_shadow_hover:rgba(35, 100, 57, 0.8); */
+  --card_shadow_hover:rgba(35, 100, 57, 0.8);
 
   --card_back:rgba(230, 184, 199, 0.9);
   --card_shadow:rgba(135, 64, 55, 0.8);
@@ -53,11 +59,19 @@
     /* border: 1px solid green; */
 }
 
+.root_back{
+  position:absolute;
+  background-image: url('../public/img/jpg/kosmos.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+
 body {
   margin: 0 auto;
   min-width: 320px;
   min-height: 100vh;
-  height: 100vh;
   background-color:var(--bck-color);
 }
 
@@ -105,7 +119,8 @@ a {
   text-decoration: none;
   list-style: none;
 }
-p{
+
+p, ul {
   margin: 0;
   padding: 0;
 }

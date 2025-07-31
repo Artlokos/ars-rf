@@ -1,18 +1,17 @@
 import React from 'react';
 import styles from './Auth.module.css';
+import { Link } from 'react-router-dom';
 
 interface AuthProps {
   // label:string
 }
 
-const Auth: React.FC<AuthProps> = () =>
-  // {label}
-  {
+const Auth: React.FC<AuthProps> = () =>  {
+  
     return (
-
         <div className={styles.auth}>
-          <a href="#">Войти</a>
-          <a href="#">Регистрация</a>
+          <Link to="/login">Войти</Link>
+          <Link to="/register">Регистрация</Link>
         </div>
 
     );

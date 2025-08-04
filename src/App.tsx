@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <Router>
-        <Header label="ArsTimes" />
+        
         {/* <Search /> */}
         <Navbar
           items={[
@@ -20,6 +20,7 @@ function App() {
             { name: 'Места', path: '/places' },
           ]}
         />
+        <Header label="ArsTimes" />
         <AppRouter />
       </Router>
     </>

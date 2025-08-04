@@ -10,7 +10,7 @@ type HeaderProps = {
 const Header: React.FC<HeaderProps> = () => {
   return (
     <header className={styles.header}>
-      <Logo label='Ars -Times' slogan='Пульс этого города'/>
+      <Logo label='ARS-TIMES' slogan='Пульс этого города'/>
       <Auth />
     </header>
   );

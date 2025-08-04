@@ -1,15 +1,16 @@
 .logo{
   grid-area: logo;
   font-size: var(--font-size-xlarge);
-  font-weight: bold;
-  color: var(--accent_color);
+  font-size: 100px;
+  text-transform: uppercase;
+  color: var(--text_color);
 }
 
 .slogan{
   grid-area:slogan;
   font-size: var(--font-size-base);
   text-transform: uppercase;
-  color:var(--accent_color);
+  color:var(--text_color);
 
 }
 .auth{

@@ -45,11 +45,14 @@
 
   /* --pages_body_color: rgb(255, 255, 255); */
 
+  /* --text_color:rgba(55, 135, 85, 0.8);
   --card_back:rgba(184, 230, 207, 0.9);
   --card_shadow:rgba(55, 135, 85, 0.8);
-  --card_shadow_hover:rgba(35, 100, 57, 0.8);
+  --card_shadow_hover:rgba(35, 100, 57, 0.8); */
 
-  --card_back:rgba(230, 184, 199, 0.9);
+
+  --text_color: rgba(135, 64, 55, 0.8);
+   --card_back:rgba(230, 184, 199, 0.9);
   --card_shadow:rgba(135, 64, 55, 0.8);
   --card_shadow_hover:rgba(100, 35, 78, 0.8);
 }
